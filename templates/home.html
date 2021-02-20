@@ -18,7 +18,7 @@
 
 <body>
     <nav class=" text-center navbar navbar-expand-md navbar-dark bg-custom">
-        <a class="navbar-brand" href="{{ url_for('home') }}"><span class="r-name">Restaurants Spotter</span></a>
+        <a class="navbar-brand" href="{{ url_for('home') }}"><span class="r-name">Restaurants Recommender</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,8 +27,8 @@
         <div class="jumbotron text-center bg-jumbo" style="background: rgb(12, 12, 12, 0.4) !important; ">
             <h1 style="color: rgb(0, 255, 42); font-weight: bolder; font-size: 50px;"> Hello <span style="color: rgb(114, 235, 225);"> Foodie</span> </h1>
             <p class="lead" style="color: rgb(224, 252, 99);">Welcome to the City of Nawabs 🤴</p><br />
-            <p class="lead">Hungry Again? Satisfy you hunger : Choose the best Restaurant</p><br />
-            <p>Let <span style="color: rgb(223, 236, 42); font-size: large;"><b>Restaurants Spotter</b></span> helps you!</p>
+            <p class="lead">Hungry Again? Satisfy your hunger : Choose the best Restaurant</p><br />
+            <p>Let <span style="color: rgb(223, 236, 42); font-size: large;"><b>Restaurants Recommender</b></span> help you!</p>
             <br />
             <div class="container justify-content-start">
                 <form action="{{ url_for('search') }}" method="POST">
